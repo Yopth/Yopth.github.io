@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'Yopth', // Usually your GitHub org/user name.
   projectName: 'Yopth.github.io', // Usually your repo name.
+  deploymentBranch: 'deployer',
   trailingSlash: false,
 
   presets: [
