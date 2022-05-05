@@ -17,7 +17,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -34,6 +34,33 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: "Tapestry";
+  src: url("@site/static/fonts/Tapestry-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ZCOOLXiaoWei";
+  src: url("@site/static/fonts/ZCOOLXiaoWei-Regular.ttf");
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tapestry";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "ZCOOLXiaoWei";
+  font-weight: 400;
 }
