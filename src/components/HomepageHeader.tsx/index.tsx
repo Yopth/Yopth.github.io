@@ -15,13 +15,13 @@ export default function HomepageHeader(): React.ReactElement {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs-engh/intro"
           >
-            go to Ensh 🥸
+            go to Engh 🥸
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/blog"
+            to="/docs-tech/intro"
           >
             go to Tech 💻
           </Link>
