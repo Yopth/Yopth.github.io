@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyopth=self.webpackChunkyopth||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"TECH Introduction","permalink":"/blog/intro"}]}')}}]);
