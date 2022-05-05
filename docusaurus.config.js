@@ -53,21 +53,16 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
+            to: "/docs-engh/intro",
             label: "ENGH",
-          },
-          {
-            type: "doc",
-            docId: "intro",
             position: "left",
-            label: "test",
+            activeBaseRegex: "/docs-engh",
           },
           {
-            to: "/blog",
+            to: "/docs-tech/intro",
             label: "TECH",
             position: "left",
+            activeBaseRegex: "/docs-tech",
           },
           {
             href: "https://github.com/Yopth/Yopth.github.io",
@@ -82,17 +77,13 @@ const config = {
           {
             title: "Docs",
             items: [
-              // {
-              //   label: "Tutorial",
-              //   to: "/docs/intro",
-              // },
               {
                 label: "ENGH",
-                to: "/docs/intro",
+                to: "/docs-engh/intro",
               },
               {
                 label: "TECH",
-                to: "/blog",
+                to: "/docs-tech/intro",
               },
             ],
           },
@@ -101,7 +92,6 @@ const config = {
             items: [
               {
                 label: "WeChat",
-                // href: 'https://github.com/Yopth/Yopth.github.io',
                 href: "/wechat",
               },
               {
@@ -113,10 +103,6 @@ const config = {
           {
             title: "More",
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
               {
                 label: "GitHub",
                 href: "https://github.com/Yopth/Yopth.github.io",
@@ -136,9 +122,18 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "test",
-        path: "test",
-        routeBasePath: "test",
+        id: "docs-tech",
+        path: "docs-tech",
+        routeBasePath: "docs-tech",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "docs-engh",
+        path: "docs-engh",
+        routeBasePath: "docs-engh",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
