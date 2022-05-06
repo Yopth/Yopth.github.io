@@ -17,7 +17,7 @@ export default function HomepageHeader(): React.ReactElement {
             className="button button--secondary button--lg"
             to="/docs-engh/intro"
           >
-            go to Engh 🥸
+            go to Engh 👳
           </Link>
           <Link
             className="button button--secondary button--lg"
