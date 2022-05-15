@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>YOPTH Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
         <description>YOPTH Blog</description>
-        <lastBuildDate>Thu, 05 May 2022 03:49:15 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 May 2022 01:52:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[TECH Introduction]]></title>
+            <title><![CDATA[20220515 价格敏感型消费者]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/20220515 价格敏感型消费者</link>
+            <guid>/20220515 价格敏感型消费者</guid>
+            <pubDate>Sun, 15 May 2022 01:52:26 GMT</pubDate>
+            <content:encoded><![CDATA[<div><div class="card_N3O3"><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw">https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw</a></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[intro]]></title>
             <link>https://your-docusaurus-test-site.com/blog/intro</link>
             <guid>/intro</guid>
             <pubDate>Thu, 05 May 2022 03:49:15 GMT</pubDate>
+            <description><![CDATA[📌 Todo]]></description>
+            <content:encoded><![CDATA[<h1>MEME Introduction</h1><p>📌 Todo</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
