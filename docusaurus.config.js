@@ -42,6 +42,20 @@ const config = {
     ],
   ],
 
+  customFields: {
+    links: {
+      blog: {
+        _20220515: "https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw",
+      },
+      docsTech: {
+        TCP: {
+          chapter12: "https://mp.weixin.qq.com/s/RVytfuqA-GIQcwORDYTliw"
+        }
+      }
+    }
+  
+  },
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -63,6 +77,11 @@ const config = {
             label: "TECH",
             position: "left",
             activeBaseRegex: "/docs-tech",
+          },
+          {
+            to: "/blog/intro",
+            label: "MEME",
+            position: "left",
           },
           {
             href: "https://github.com/Yopth/Yopth.github.io",
@@ -117,6 +136,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
   plugins: [
     "docusaurus-plugin-sass",
     [

@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
 type FeatureItem = {
   title: string;
@@ -51,8 +51,8 @@ function Feature({title, Svg, description}: FeatureItem) {
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+      <div className={clsx("text--center padding-horiz--md", styles.content)}>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
