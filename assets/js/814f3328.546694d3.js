@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyopth=self.webpackChunkyopth||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"20220515 \u4ef7\u683c\u654f\u611f\u578b\u6d88\u8d39\u8005","permalink":"/blog/20220515 \u4ef7\u683c\u654f\u611f\u578b\u6d88\u8d39\u8005"},{"title":"intro","permalink":"/blog/intro"}]}')}}]);
