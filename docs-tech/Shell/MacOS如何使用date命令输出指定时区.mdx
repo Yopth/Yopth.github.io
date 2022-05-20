@@ -1,4 +1,8 @@
 import LinkCard from "@site/src/components/LinkCard";
-import siteConfig from '@generated/docusaurus.config';
+import { ShellLink } from "@site/src/links/docs-tech.ts";
+import { Platform } from "@site/src/utils/constants.ts";
 
-<LinkCard url={siteConfig.customFields.links.docsTech.Shell["MacOS如何使用date命令输出指定时区"]}  />
+<LinkCard
+  url={ShellLink["MacOS如何使用date命令输出指定时区"]}
+  header={Platform.WeChatOfficialAccount}
+/>
