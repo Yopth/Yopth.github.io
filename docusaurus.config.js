@@ -49,14 +49,14 @@ const config = {
       },
       docsTech: {
         TCP: {
-          chapter12: "https://mp.weixin.qq.com/s/RVytfuqA-GIQcwORDYTliw"
+          chapter12: "https://mp.weixin.qq.com/s/RVytfuqA-GIQcwORDYTliw",
         },
         Shell: {
-          "MacOS如何使用date命令输出指定时区": "https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485129&idx=1&sn=6639cf7dcbfd95ed3f01ec840bf26b5a&chksm=ce22c86ff9554179c6b24392e1195cd2eec19e190be5778c4d06e6a2ab4dfa4a407c7579181c"
-        }
-      }
-    }
-  
+          MacOS如何使用date命令输出指定时区:
+            "https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485129&idx=1&sn=6639cf7dcbfd95ed3f01ec840bf26b5a&chksm=ce22c86ff9554179c6b24392e1195cd2eec19e190be5778c4d06e6a2ab4dfa4a407c7579181c",
+        },
+      },
+    },
   },
 
   themeConfig:
@@ -70,21 +70,30 @@ const config = {
         },
         items: [
           {
+            to: "/docs/intro",
+            label: "CURRENT",
+            position: "left",
+          },
+          {
             to: "/docs-engh/intro",
             label: "ENGH",
             position: "left",
-            activeBaseRegex: "/docs-engh",
+            // activeBaseRegex: "/docs-engh",
           },
           {
             to: "/docs-tech/intro",
             label: "TECH",
             position: "left",
-            activeBaseRegex: "/docs-tech",
+            // activeBaseRegex: "/docs-tech",
           },
           {
             to: "/blog/intro",
             label: "MEME",
             position: "left",
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: "https://github.com/Yopth/Yopth.github.io",
@@ -161,6 +170,16 @@ const config = {
       },
     ],
   ],
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-CN"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-GB",
+      },
+    },
+  },
 };
 
 module.exports = config;
