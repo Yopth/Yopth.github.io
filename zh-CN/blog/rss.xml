@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>YOPTH Blog</title>
+        <link>https://your-docusaurus-test-site.com/zh-CN/blog</link>
+        <description>YOPTH Blog</description>
+        <lastBuildDate>Tue, 24 May 2022 15:55:39 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-CN</language>
+        <item>
+            <title><![CDATA[MEME 介绍]]></title>
+            <link>https://your-docusaurus-test-site.com/zh-CN/blog/intro</link>
+            <guid>/intro</guid>
+            <pubDate>Tue, 24 May 2022 15:55:39 GMT</pubDate>
+            <description><![CDATA[📌 代办]]></description>
+            <content:encoded><![CDATA[<p>📌 代办</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20220515 价格敏感型消费者]]></title>
+            <link>https://your-docusaurus-test-site.com/zh-CN/blog/20220515 价格敏感型消费者</link>
+            <guid>/20220515 价格敏感型消费者</guid>
+            <pubDate>Sun, 15 May 2022 14:55:13 GMT</pubDate>
+            <content:encoded><![CDATA[<div><div class="card_N3O3"><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw">https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw</a></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[20220525 有一只黑猫的好处]]></title>
+            <link>https://your-docusaurus-test-site.com/zh-CN/blog/20220525 有一只黑猫的好处</link>
+            <guid>/20220525 有一只黑猫的好处</guid>
+            <pubDate>Sun, 15 May 2022 14:55:13 GMT</pubDate>
+            <content:encoded><![CDATA[<div><div class="card_N3O3"><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA">https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA</a></div></div>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
