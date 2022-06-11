@@ -14,7 +14,7 @@ export default function LinkCard({ url, header }: Props): React.ReactElement {
       <div className={styles.card}>
         <h3 className={styles.header}>{header ? header : Platform.WeChat}</h3>
         <p>Please Go to</p>
-        <a href={url}>{url}</a>
+        <a href={url} target="_blank">{url}</a>
       </div>
     </div>
   );
