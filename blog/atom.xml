@@ -2,24 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>YOPTH Blog</title>
-    <updated>2022-05-15T14:55:13.000Z</updated>
+    <updated>2022-06-11T13:30:42.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>YOPTH Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[20220611  怎么和我想的不一样]]></title>
+        <id>/20220611  怎么和我想的不一样</id>
+        <link href="https://your-docusaurus-test-site.com/blog/20220611  怎么和我想的不一样"/>
+        <updated>2022-06-11T13:30:42.000Z</updated>
+        <content type="html"><![CDATA[<div><div class="card_N3O3"><h3>WeChat Official Account</h3><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/Hq_7cezEF2jTO8SlSr4KFA">https://mp.weixin.qq.com/s/Hq_7cezEF2jTO8SlSr4KFA</a></div></div><div><div class="card_N3O3"><h3>Jue Jin</h3><p>Please Go to</p><a href="https://juejin.cn/post/7107970484884488229">https://juejin.cn/post/7107970484884488229</a></div></div>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[20220515 价格敏感型消费者]]></title>
         <id>/20220515 价格敏感型消费者</id>
         <link href="https://your-docusaurus-test-site.com/blog/20220515 价格敏感型消费者"/>
         <updated>2022-05-15T14:55:13.000Z</updated>
-        <content type="html"><![CDATA[<div><div class="card_N3O3"><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw">https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw</a></div></div>]]></content>
+        <content type="html"><![CDATA[<div><div class="card_N3O3"><h3>WeChat Official Account</h3><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw">https://mp.weixin.qq.com/s/QMYTsTSV5UI8jM4qUTXIhw</a></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[20220525 有一只黑猫的好处]]></title>
         <id>/20220525 有一只黑猫的好处</id>
         <link href="https://your-docusaurus-test-site.com/blog/20220525 有一只黑猫的好处"/>
         <updated>2022-05-15T14:55:13.000Z</updated>
-        <content type="html"><![CDATA[<div><div class="card_N3O3"><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA">https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA</a></div></div>]]></content>
+        <content type="html"><![CDATA[<div><div class="card_N3O3"><h3>WeChat Official Account</h3><p>Please Go to</p><a href="https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA">https://mp.weixin.qq.com/s/K4PTQkW71XS7IhKhUGQkVA</a></div></div>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[MEME Introduction]]></title>
