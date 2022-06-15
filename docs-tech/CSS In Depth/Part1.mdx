@@ -1,0 +1,26 @@
+import LinkCard from '@site/src/components/LinkCard';
+import { CSSInDepthLink } from '@site/src/links/docs-tech.ts';
+import { Platform } from '@site/src/utils/constants.ts';
+
+<LinkCard
+  url={CSSInDepthLink['CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS']}
+  header={Platform.WeChatOfficialAccount}
+/>
+
+<LinkCard
+  url={
+    CSSInDepthLink[Platform.CSDN][
+      'CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS'
+    ]
+  }
+  header={Platform.CSDN}
+/>
+
+<LinkCard
+  url={
+    CSSInDepthLink[Platform.JueJin][
+      'CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS'
+    ]
+  }
+  header={Platform.JueJin}
+/>
