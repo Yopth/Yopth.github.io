@@ -9,7 +9,7 @@ const CSS = {
 
 const CSSInDepth = {
   ['CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS']:
-    'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&tempkey=MTE3MF9aaG5pVGpEYUIyWHhMSHJqdEljSkExd1BFYm5Dd3JWa19Yd2VaY0k2SDAtV25IejlOd2NYXzlrUmU0Z25VN04yS0N6WXhvVG1RSHpwS3BuNDhxSDFKZUVCOEVCYi1jRXkzMGtkVHZKOFlobHBaQWlMbFA2ZzhCZ2RBeVBSdjJOOFhfd01vVEJhMmdOQUpja2hXQmNRYlNRZ3BVWERuOFpIdUdIX293fn4%3D&chksm=ce22c986f9554090ad659f97300bc3cd82b4b337a054e7b7c4a04364e8101a3799283b0c8f09&token=747278028&lang=en_US#rd',
+  'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485216&idx=1&sn=e9131717a962d77503f7aae835197cca&chksm=ce22c986f9554090ad659f97300bc3cd82b4b337a054e7b7c4a04364e8101a3799283b0c8f09&token=12353019&lang=zh_CN#rd',
   [Platform.CSDN]: {
     ['CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS']:
       'https://blog.csdn.net/YopenLang/article/details/125299678?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125299678%22%2C%22source%22%3A%22YopenLang%22%7D&ctrtid=CQcQU',
