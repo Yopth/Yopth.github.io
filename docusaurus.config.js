@@ -76,13 +76,13 @@ const config = {
           },
           {
             to: "/docs-engh/intro",
-            label: "ENGH",
+            label: "学点英语",
             position: "left",
             // activeBaseRegex: "/docs-engh",
           },
           {
             to: "/docs-tech/intro",
-            label: "TECH",
+            label: "技术博客",
             position: "left",
             // activeBaseRegex: "/docs-tech",
           },
@@ -91,10 +91,10 @@ const config = {
             label: "MEME",
             position: "left",
           },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
             href: "https://github.com/Yopth/Yopth.github.io",
             label: "GitHub",
