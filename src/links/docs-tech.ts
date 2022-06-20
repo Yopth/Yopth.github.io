@@ -5,11 +5,13 @@ const CSS = {
     'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485132&idx=1&sn=f19036b01c636bcafac9404e6703f1c3&chksm=ce22c86af955417c820bb1bb474e01156d47d8aeb60f08e25cef02706493a3775779ecc2ca4a',
   ['必知必会margin-inline, margin-block, padding-inline, padding-block']:
     'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485146&idx=1&sn=a1a4a4a0fc61f5b457543d77a4951f2f&chksm=ce22c87cf955416adf73fb62779a66bea36a1eb4a657a363846676d5fd8329d53ef60e34ca19&token=12353019&lang=zh_CN#rd',
+  ['习以为常但又不太了解的包含块——如何决定元素的尺寸和位置']:
+    'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485449&idx=1&sn=d3584c6f7dea353cbfaac0a95d78fcad&chksm=ce22c6aff9554fb93b56737d56a54635d98bce5296747d5cbd1b2c7f8dd0ca49be05f39aa422&token=978795651&lang=zh_CN#rd',
 };
 
 const CSSInDepth = {
   ['CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS']:
-  'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485216&idx=1&sn=e9131717a962d77503f7aae835197cca&chksm=ce22c986f9554090ad659f97300bc3cd82b4b337a054e7b7c4a04364e8101a3799283b0c8f09&token=12353019&lang=zh_CN#rd',
+    'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485216&idx=1&sn=e9131717a962d77503f7aae835197cca&chksm=ce22c986f9554090ad659f97300bc3cd82b4b337a054e7b7c4a04364e8101a3799283b0c8f09&token=12353019&lang=zh_CN#rd',
   [Platform.CSDN]: {
     ['CSS In Depth: PART1 REVIEWING THE FUNDAMENTALS']:
       'https://blog.csdn.net/YopenLang/article/details/125299678?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22125299678%22%2C%22source%22%3A%22YopenLang%22%7D&ctrtid=CQcQU',
