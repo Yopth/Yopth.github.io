@@ -1,12 +1,20 @@
 import Platform from './platform';
 
 const CSS = {
+  [Platform.CSDN]: {
+    ['CSS 中 password 密码切换是否可见']:
+      'https://blog.csdn.net/YopenLang/article/details/125400940',
+    ['利用 CSS 的 clip-path 属性快速画三角形']:
+      'https://blog.csdn.net/YopenLang/article/details/125386716',
+  },
   ['CSS的Cascade']:
     'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485132&idx=1&sn=f19036b01c636bcafac9404e6703f1c3&chksm=ce22c86af955417c820bb1bb474e01156d47d8aeb60f08e25cef02706493a3775779ecc2ca4a',
   ['必知必会margin-inline, margin-block, padding-inline, padding-block']:
     'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485146&idx=1&sn=a1a4a4a0fc61f5b457543d77a4951f2f&chksm=ce22c87cf955416adf73fb62779a66bea36a1eb4a657a363846676d5fd8329d53ef60e34ca19&token=12353019&lang=zh_CN#rd',
   ['习以为常但又不太了解的包含块——如何决定元素的尺寸和位置']:
     'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485449&idx=1&sn=d3584c6f7dea353cbfaac0a95d78fcad&chksm=ce22c6aff9554fb93b56737d56a54635d98bce5296747d5cbd1b2c7f8dd0ca49be05f39aa422&token=978795651&lang=zh_CN#rd',
+  ['z-index 为什么会不起作用']:
+    'https://mp.weixin.qq.com/s?__biz=Mzg2MDYyNTg2NQ==&mid=2247485546&idx=1&sn=5654f07e27a5d5597cbbbbcf55573de1&chksm=ce22c6ccf9554fdafe8c8c1c3b07cd4bf658e3340d59473fbbd734f58af623601df8580ebd1c&token=1716618670&lang=zh_CN#rd',
 };
 
 const CSSInDepth = {
@@ -63,6 +71,19 @@ const TypeScript = {
   [Platform.CSDN]: {
     ['TS: 获取数组的元素类型']:
       'https://blog.csdn.net/YopenLang/article/details/125280771',
+    ['setTimeout/setIntervel 的类型定义']:
+      'https://blog.csdn.net/YopenLang/article/details/125545516',
+    ['处理 useRef + useImperativeHandle ：Property ‘xxx‘ does not exist on type ‘never‘. 的类型错误']:
+      'https://blog.csdn.net/YopenLang/article/details/125534990',
+    ['React 中利用解构语法 ... 快速方便传递 props 参数']:
+      'https://blog.csdn.net/YopenLang/article/details/125442872',
+  },
+};
+
+const JavaScript = {
+  [Platform.CSDN]: {
+    ['JS 中，window 对象的 requestAnimationFrame 是什么？']:
+      'https://blog.csdn.net/YopenLang/article/details/125385482',
   },
 };
 
@@ -72,3 +93,4 @@ export { TCP as TCPLink };
 export { Shell as ShellLink };
 export { ReactVue as ReactVueLink };
 export { TypeScript as TypeScriptLink };
+export { JavaScript as JavaScriptLink };
