@@ -70,11 +70,6 @@ const config = {
         },
         items: [
           {
-            to: "/docs/intro",
-            label: "CURRENT",
-            position: "left",
-          },
-          {
             to: "/docs-engh/intro",
             label: "学点英语",
             position: "left",
@@ -82,7 +77,7 @@ const config = {
           },
           {
             to: "/docs-tech/intro",
-            label: "技术博客",
+            label: "技术杂谈",
             position: "left",
             // activeBaseRegex: "/docs-tech",
           },
@@ -109,11 +104,11 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "ENGH",
+                label: "学点英语",
                 to: "/docs-engh/intro",
               },
               {
-                label: "TECH",
+                label: "技术杂谈",
                 to: "/docs-tech/intro",
               },
             ],

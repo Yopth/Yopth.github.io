@@ -12,34 +12,31 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     // title: 'Easy to Use',
-    title: 'Professional',
+    title: '人生路长',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        {/* Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly. */}
+        路漫漫其修远兮，吾将上下而求索。
       </>
     ),
   },
   {
     // title: 'Focus on What Matters',
-    title: 'Interesting',
+    title: '笔耕不辍',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory. */}
+        妓女不能等有了性欲才接客，作家不能等有了灵感才写作。
       </>
     ),
   },
   {
     // title: 'Powered by React',
-    title: 'Good',
+    title: '积极向上',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        {/* Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer. */}
+        生命是一朵早晚会凋谢的鲜花，但是花开不是为了花落。
       </>
     ),
   },

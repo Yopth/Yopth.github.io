@@ -10,9 +10,11 @@ export default function HomepageHeader(): React.ReactElement {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className='container'>
-        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
-        <h1 className='hero__title'>「 {siteConfig.title} 」</h1>
-        <p className='hero__subtitle'>{siteConfig.tagline}</p>
+        <h1 className='hero__title'>公众号 「 {siteConfig.title} 」</h1>
+        {/* <p className='hero__subtitle'>{siteConfig.tagline}</p> */}
+        <p className='hero__subtitle'>
+          欢迎来到 Pandy 的创作小屋，这里收集我所有的文章、博客笔记
+        </p>
         <div className={styles.buttons}>
           <Link
             className='button button--secondary button--lg'
@@ -24,7 +26,7 @@ export default function HomepageHeader(): React.ReactElement {
             className='button button--secondary button--lg'
             to='/docs-tech/intro'
           >
-            Go to 技术文章 💻
+            Go to 技术杂谈 💻
           </Link>
         </div>
       </div>
