@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 ---
-# TECH Introduction
+# 技术杂谈
 
-📌 todo
+Hello，我是 Pandy。
+
+这里收集所有技术笔记。
